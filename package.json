@@ -1,0 +1,79 @@
+{
+  "name": "component-library-pp",
+  "version": "0.1.0",
+  "main": "src/index",
+  "source": "src/index",
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@looker/components": "^4.0.4",
+    "@looker/embed-sdk": "^1.8.0",
+    "@looker/extension-sdk": "^22.20.0",
+    "@looker/extension-sdk-react": "^22.20.0",
+    "@looker/filter-components": "1.0.1",
+    "@looker/icons": "^1.5.21",
+    "@looker/sdk": "^22.20.0",
+    "@looker/sdk-rtl": "^21.4.0",
+    "@styled-icons/material": "10.34.0",
+    "@styled-icons/material-outlined": "10.34.0",
+    "@styled-icons/material-rounded": "10.34.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.88",
+    "@types/react": "^18.2.65",
+    "@types/react-dom": "^18.2.22",
+    "@types/styled-components": "^5.1.27",
+    "@types/styled-system": "^5.1.17",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5",
+    "styled-components": "^5.3.3"
+  },
+  "peerDependencies": {
+    "react": "*"
+  },
+  "repository": "https://github.com/pp-paciorek/components-library",
+  "author": "Jacek Paciorek <jack.paciorek@gmail.com> (https://github.com/booua)",
+  "devDependencies": {
+    "@callstack/eslint-config": "^14.0.0",
+    "eslint": "^8.4.1",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.28.1",
+    "prettier": "^2.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint \"**/*.{js,ts,tsx}\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "engines": {
+    "node": ">= 18.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
