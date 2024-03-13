@@ -1,6 +1,6 @@
-import React, { FC, useState } from 'react';
-import styled from 'styled-components';
 import { ButtonItem, ButtonToggle } from '@looker/components';
+import { FC, useState } from 'react';
+import styled from 'styled-components';
 import { COLORS } from './theme/colors';
 
 const PPToggleButton: FC<{
@@ -24,9 +24,9 @@ const PPToggleButton: FC<{
   );
 };
 
-export default PPToggleButton;
+export { PPToggleButton };
 
-export const StyledButtonItem = styled(ButtonItem)`
+const StyledButtonItem = styled(ButtonItem)`
   flex: 1;
   text-transform: capitalize;
   border: ${COLORS.border};
@@ -42,7 +42,8 @@ export const StyledButtonItem = styled(ButtonItem)`
     border: ${COLORS.activeBorder};
   }
 `;
-export const StyledButtonToggle = styled(ButtonToggle)`
+
+const StyledButtonToggle = styled(ButtonToggle)`
   display: flex;
   border-style: none;
   //   height: ${COLORS.height};
