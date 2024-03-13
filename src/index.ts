@@ -1,3 +1,3 @@
-export { CowFlossLoader } from './components/CowFlossLoader';
+export { PPToggleButton } from './components/PPToggleButton';
 
 
