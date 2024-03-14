@@ -1,6 +1,6 @@
-import React, { FC, useState } from 'react';
-import styled from 'styled-components';
 import { Chip, Space } from '@looker/components';
+import { FC, useState } from 'react';
+import styled from 'styled-components';
 import { COLORS } from './theme/colors';
 
 const PPChip: FC<{
@@ -31,7 +31,7 @@ const PPChip: FC<{
   );
 };
 
-export default PPChip;
+export { PPChip };
 
 export const StyledChip = styled(Chip)`
   height: ${COLORS.height};

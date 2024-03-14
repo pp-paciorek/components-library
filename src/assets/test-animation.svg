@@ -1,0 +1,54 @@
+<svg width="500" height="199.99999999999997" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <title>twittercard</title>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="#000000" fill="none" stroke-width="5" x="5" y="5" width="488.000028" height="189.999996" id="svg_4"/>
+  <ellipse fill="none" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="44" cy="39" id="svg_7" rx="24" ry="24"/>
+  <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="107" y="36" id="svg_9" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve">Trek10</text>
+  <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="134" y="57" id="svg_10" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve">@Trek10Inc</text>
+  
+   
+   <text fill="#000000" opacity="0" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="30" y="97" id="svg_13" font-size="24" font-family="serif" text-anchor="left">
+     <animate id="animation1"
+             attributeName="opacity"
+             from="0" to="1" dur="1s"
+             begin="0s;animation4.end" />
+     <animate id="animation2"
+             attributeName="opacity"
+             from="1" to="0" dur="1s"
+             begin="animation1.end" />
+     Writing Stuff about our projects that are</text>
+  <text fill="#000000" opacity="0" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="30" y="122" id="svg_14" font-size="24" font-family="serif" text-anchor="left">
+    <animate
+             attributeName="opacity"
+             from="0" to="1" dur="1s"
+             begin="animation1.begin" />
+    <animate
+             attributeName="opacity"
+             from="1" to="0" dur="1s"
+             begin="animation2.begin" />
+    really awesome. and stuff.</text>
+ 
+      <text fill="#000000" opacity="0" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="30" y="97" id="svg_20" font-size="24" font-family="serif" text-anchor="left">
+     <animate id="animation3"
+             attributeName="opacity"
+             from="0" to="1" dur="1s"
+             begin="animation2.end" />
+     <animate id="animation4"
+             attributeName="opacity"
+             from="1" to="0" dur="1s"
+             begin="animation3.end" />
+     SUP! It's dynamic static emeddable</text>
+  <text fill="#000000" opacity="0" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="30" y="122" font-size="24" font-family="serif" text-anchor="left" id="svg_21">
+    <animate
+             attributeName="opacity"
+             from="0" to="1" dur="1s"
+             begin="animation3.begin" />
+    <animate 
+             attributeName="opacity"
+             from="1" to="0" dur="1s"
+             begin="animation4.begin" />
+    animated content.</text>
+  </g>
+</svg>

@@ -1,16 +1,14 @@
+// @ts-nocheck
+/* eslint-disable */
 import { Box } from '@looker/components';
 
-export const CowFloss = () => (
-  <img
-    width={'100%'}
-    height={'85%'}
-    style={{ paddingTop: '20%' }}
-    src="https://s5.gifyu.com/images/SR3M7.gif"
-    alt="cow-floss"
-  />
-);
+import CowFlossSvg from '!file-loader!../assets/cow-floss.svg';
 
- const CowFlossLoader = () => {
+const CowFloss = () => {
+  return <object data={CowFlossSvg} />;
+};
+
+const CowFlossLoader = () => {
   return (
     <Box
       display={'flex'}
@@ -37,4 +35,4 @@ export const CowFloss = () => (
   );
 };
 
-export { CowFlossLoader };
+export { CowFloss };
